@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <title>Travel Site</title>
+  </head>
+    <body>
+      <h1>Travel! GO! NOW! What are you waiting for!?</h>
+	  <p>Welcome to TravelSomething, the leading innovator in mediocre travel websites!</p>
+	  <img src="assets\1 images\travel1">
+    </body>
+</html>

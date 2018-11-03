@@ -1,0 +1,118 @@
+.pie1 {
+  height:100px;
+  width:100px;
+  background-color: red;
+  color: white;
+  border-radius:100% 0px 0px 0px;
+  text-align: center;
+  border: 1px solid white;
+  float: left;
+}
+.pie2 {
+  height:100px;
+  width:100px;
+  background-color: yellow;
+  color: black;
+  border-radius: 0px 100% 0px 0px;
+  text-align: center;
+  border: 1px solid white;
+  float: right;
+}
+.pie3 {
+  height:100px;
+  width:100px;
+  background-color: green;
+  color: white;
+  border-radius: 0px 0px 100% 0px;
+  text-align: center;
+  border: 1px solid white;
+  float: right;
+}
+.pie4 {
+  height:100px;
+  width:100px;
+  background-color: blue;
+  color: white;
+  border-radius: 0px 0px 0px 100%;
+  text-align: center;
+  border: 1px solid white;
+  float: left;
+}
+.top {
+  height: 102px;
+  width: 204px;
+  background-color: rgba(0,0,0,0);
+}
+.bottom {
+  height: 102px;
+  width: 204px;
+  background-color: rgba(0,0,0,0);
+}
+.navbar {
+  display: grid;
+  grid-template-columns: 100px 1.5fr 1fr 1fr;
+  height:100px;
+  background-color: rgba(1, 1, 1, 1);
+}
+.logo {
+  background-image: url("logo.png");
+  background-size: 100px 100px;
+  height:100px;
+  width:100px;
+  background-color: red;
+}
+.links {
+  float: left;
+  margin:auto;
+}
+a:link, a:visited {
+    background-color: #000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+.searchbar {
+  margin:auto;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-image: url("search.png");
+    background-position: right;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+.cart {
+  font-family: sans-serif;
+  text-align: right;
+  text-shadow: 1px 1px 2px grey;
+  color: white;
+}
+p {
+  font-size: 10px;
+  vertical-align: middle;
+}
+.cartbutton {
+  background-image: url(cart.png);
+  height: 35px;
+  width: 35px;
+  background-size: 35px;
+}
